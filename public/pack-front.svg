@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1882" viewBox="0 0 1000 1882">
+  <defs>
+    <linearGradient id="silver" x1="0" x2="1" y2=".14">
+      <stop stop-color="#727982"/><stop offset=".035" stop-color="#f0f3f5"/><stop offset=".085" stop-color="#a5adb5"/>
+      <stop offset=".16" stop-color="#e1e5e9"/><stop offset=".3" stop-color="#a8b0b9"/><stop offset=".52" stop-color="#d9dfe4"/>
+      <stop offset=".73" stop-color="#9fa7b1"/><stop offset=".9" stop-color="#e8edf0"/><stop offset=".97" stop-color="#7b848e"/><stop offset="1" stop-color="#d7dce2"/>
+    </linearGradient>
+    <linearGradient id="fold" x2="1" y2="1"><stop stop-color="#fff" stop-opacity=".48"/><stop offset=".45" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#313b48" stop-opacity=".2"/></linearGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".65 .012" numOctaves="2" seed="8"/><feColorMatrix type="saturate" values="0"/></filter>
+  </defs>
+  <path fill="url(#silver)" d="M0 0h1000v1882H0z"/>
+  <path fill="url(#fold)" d="m0 60 160 1100L65 1882H0zm1000-60L860 980l100 902h40zM70 0l420 560 370 1322h140L650 580 320 0z"/>
+  <path d="m34 70 94 780-52 930m885-1670-92 880 91 805M158 0l222 435M700 1350l190 460" fill="none" stroke="#fff" stroke-opacity=".32" stroke-width="4"/>
+  <path d="m50 76 90 800-52 930m856-1660-87 880 89 805M173 0l220 435M713 1350l188 460" fill="none" stroke="#3c4652" stroke-opacity=".15" stroke-width="3"/>
+  <path fill="#87919b" opacity=".075" filter="url(#grain)" d="M0 0h1000v1882H0z"/>
+  <text x="500" y="1080" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="420" font-weight="700" fill="#333c47">?</text>
+</svg>

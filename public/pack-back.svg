@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1882" viewBox="0 0 1000 1882">
+  <defs>
+    <linearGradient id="silver" x1="0" x2="1" y2=".1"><stop stop-color="#7e8790"/><stop offset=".06" stop-color="#eef2f5"/><stop offset=".16" stop-color="#abb4bd"/><stop offset=".39" stop-color="#d9dfe4"/><stop offset=".5" stop-color="#a2abb5"/><stop offset=".52" stop-color="#e7ecf0"/><stop offset=".55" stop-color="#939da8"/><stop offset=".8" stop-color="#d6dde3"/><stop offset=".96" stop-color="#86909b"/><stop offset="1" stop-color="#dce1e6"/></linearGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".65 .012" numOctaves="2" seed="12"/><feColorMatrix type="saturate" values="0"/></filter>
+  </defs>
+  <path fill="url(#silver)" d="M0 0h1000v1882H0z"/>
+  <path d="m30 50 74 920-48 850m901-1770-72 900 65 880M510 0v1882" fill="none" stroke="#fff" stroke-opacity=".3" stroke-width="5"/>
+  <path fill="#87919b" opacity=".075" filter="url(#grain)" d="M0 0h1000v1882H0z"/>
+  <text x="500" y="1080" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="420" font-weight="700" fill="#333c47">?</text>
+</svg>
